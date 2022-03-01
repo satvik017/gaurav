@@ -1,0 +1,49 @@
+body {
+    background-color: lightslategray;
+    color: black;
+}
+
+.img-box {
+    height: 160px;
+    width: 300px;
+}
+
+.career-library-new {
+    text-align: center;
+}
+
+.row .cl-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.row ul li {
+    margin: 10px auto;
+    padding: 10px 15px;
+    width: 60%;
+    background-color: #a4508b;
+    color: #fff;
+    border: 2px solid #350125;
+    border-radius: 5px;
+    box-shadow: 4px 6px 7px black;
+}
+
+.row ul li:hover {
+    cursor: pointer;
+    background-color: #691c52;
+    box-shadow: none;
+}
+
+.row ul li a {
+    color: #fff;
+    text-decoration: none;
+}
